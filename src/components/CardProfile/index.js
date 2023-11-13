@@ -2,7 +2,7 @@ import "../CardProfile/index.css";
 
 export default function CardProfile(props) {
   return (
-    <div className="card">
+    <div className="cardProfile">
       <img src={props.img1} alt="" className="photo" id="gambar" />
       <div className="description">
         <div>
