@@ -1,0 +1,41 @@
+/* index.css */
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  padding: 10px 0;
+  text-align: center;
+  color: #fff;
+}
+
+/* Style the navigation list */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Style each list item (icon and text) */
+nav li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style the icons */
+.icon {
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+/* Style the icon links */
+.iconLink {
+  text-decoration: none; /* Menghapus garis bawah tautan */
+  color: #fff; /* Warna teks tautan menjadi putih */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; /* Tambahkan padding agar tautan memiliki area yang dapat diklik */
+}

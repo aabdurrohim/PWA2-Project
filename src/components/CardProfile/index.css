@@ -1,0 +1,39 @@
+.card {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+  background-color: aqua;
+}
+.photo {
+  width: 90px;
+  height: 90px;
+}
+.description {
+  display: flex;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#name {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Verdana;
+}
+#NIM {
+  color: grey;
+  font-family: Verdana;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 5px;
+}
+#gambar {
+  height: 90px;
+  width: 50px;
+}

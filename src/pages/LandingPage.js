@@ -16,7 +16,7 @@ export default function LandingPage() {
   const [modalItem, setModalItem] = useState(null);
 
   useEffect(() => {
-    const fetchData = async (query) => {  
+    const fetchData = async (query) => {
       setIsLoading(true);
       try {
         const response = await axios.get("https://imdb8.p.rapidapi.com/auto-complete", {
